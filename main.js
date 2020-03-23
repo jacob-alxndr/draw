@@ -18,7 +18,7 @@ function setupCanvas() {
   canvasTag.style.width = `${width}px`;
   canvasTag.style.height = `${height}px`;
   // fill the canvas with a color
-  context.fillStyle = '#191919';
+  context.fillStyle = '#fff';
   context.rect(0, 0, width, height);
   context.fill();
 
